@@ -1,0 +1,50 @@
+* {
+  font-family: "Bungee", "Bungee Shade", cursive, "Times New Roman", Times,
+    serif;
+  font-size: large;
+  box-sizing: border-box;
+}
+
+.allcolumns {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .allcolumns {
+    width: 100%;
+  }
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-photo/crumpled-paperboard_95678-486.jpg?w=996&t=st=1660694456~exp=1660695056~hmac=f000824e4768dcc34cd5e6776245d207c3294c9daff07d9367205ffcaddfe40d);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  margin: 10px;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  background-color: #dda35d;
+  font-size: 100px;
+  font-weight: bolder;
+  text-align: center;
+  font-family: "Righteous", Times, san-serif;
+}
+
+.seriouslyy {
+  font-family: "Bungee Shade", cursive;
+  font-size: 120px;
+}
